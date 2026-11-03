@@ -1,0 +1,22 @@
+Generate Python unit tests for the following function.
+
+Task ID: task_024
+Function name: largest_divisor
+
+Function code:
+def largest_divisor(n: int) -> int:
+    """ For a given number n, find the largest number that divides n evenly, smaller than n
+    >>> largest_divisor(15)
+    5
+    """
+    for i in reversed(range(n)):
+        if n % i == 0:
+            return i
+
+Requirements:
+- Use pytest.
+- Import the function from solutions.task_024.
+- Write independent test functions whose names start with test_.
+- Cover normal cases, edge cases, and boundary cases.
+- Do not modify the original function.
+- Return ONLY executable Python test code.

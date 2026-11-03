@@ -1,0 +1,22 @@
+Generate Python unit tests for the following function.
+
+Task ID: task_015
+Function name: string_sequence
+
+Function code:
+def string_sequence(n: int) -> str:
+    """ Return a string containing space-delimited numbers starting from 0 upto n inclusive.
+    >>> string_sequence(0)
+    '0'
+    >>> string_sequence(5)
+    '0 1 2 3 4 5'
+    """
+    return ' '.join([str(x) for x in range(n + 1)])
+
+Requirements:
+- Use pytest.
+- Import the function from solutions.task_015.
+- Write independent test functions whose names start with test_.
+- Cover normal cases, edge cases, and boundary cases.
+- Do not modify the original function.
+- Return ONLY executable Python test code.

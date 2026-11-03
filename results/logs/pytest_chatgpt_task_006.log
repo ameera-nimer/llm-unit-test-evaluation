@@ -1,0 +1,20 @@
+.........F.................................                              [100%]
+=================================== FAILURES ===================================
+________________ test_groups_without_spaces_between_characters _________________
+
+    def test_groups_without_spaces_between_characters():
+>       assert parse_nested_parens("()()") == [1, 1]
+E       assert [1] == [1, 1]
+E         
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+tests/test_task_006.py:44: AssertionError
+- generated xml file: /content/ase_workspace/execution/chatgpt/task_006/junit.xml -
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.16-final-0 _______________
+
+Coverage JSON written to file /content/ase_workspace/execution/chatgpt/task_006/coverage.json
+=========================== short test summary info ============================
+FAILED tests/test_task_006.py::test_groups_without_spaces_between_characters
+1 failed, 42 passed in 0.29s

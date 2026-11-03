@@ -1,0 +1,18 @@
+........................................F...............                 [100%]
+=================================== FAILURES ===================================
+______________________ test_none_input_raises_type_error _______________________
+
+    def test_none_input_raises_type_error():
+>       with pytest.raises(TypeError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'TypeError'>
+
+tests/test_task_013.py:193: Failed
+- generated xml file: /content/ase_workspace/execution/claude/task_013/junit.xml -
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.16-final-0 _______________
+
+Coverage JSON written to file /content/ase_workspace/execution/claude/task_013/coverage.json
+=========================== short test summary info ============================
+FAILED tests/test_task_013.py::test_none_input_raises_type_error - Failed: DI...
+1 failed, 55 passed in 0.43s

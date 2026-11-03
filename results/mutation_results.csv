@@ -1,0 +1,76 @@
+Task,Model,Mutation_Duration_s,Total_Mutants,Killed,Timeout,Survived,Skipped_Untested,Mutation_Score,Mutation_Status
+task_000,chatgpt,15.71,6,6,0,0,0,100.0,Completed
+task_001,chatgpt,39.24,17,17,0,0,0,100.0,Completed
+task_002,chatgpt,7.0,2,2,0,0,0,100.0,Completed
+task_003,chatgpt,20.37,8,8,0,0,0,100.0,Completed
+task_004,chatgpt,11.82,4,4,0,0,0,100.0,Completed
+task_005,chatgpt,16.51,6,6,0,0,0,100.0,Completed
+task_006,chatgpt,33.59,14,12,0,2,0,85.71,Completed
+task_007,chatgpt,4.96,1,1,0,0,0,100.0,Completed
+task_008,chatgpt,20.39,8,8,0,0,0,100.0,Completed
+task_009,chatgpt,14.71,5,5,0,0,0,100.0,Completed
+task_010,chatgpt,44.64,14,14,0,0,0,100.0,Completed
+task_011,chatgpt,11.75,4,4,0,0,0,100.0,Completed
+task_012,chatgpt,9.3,3,3,0,0,0,100.0,Completed
+task_013,chatgpt,7.41,2,2,0,0,0,100.0,Completed
+task_014,chatgpt,9.32,3,3,0,0,0,100.0,Completed
+task_015,chatgpt,9.23,3,3,0,0,0,100.0,Completed
+task_016,chatgpt,2.96,0,0,0,0,0,,No mutants generated
+task_017,chatgpt,19.98,8,8,0,0,0,100.0,Completed
+task_018,chatgpt,24.24,10,9,0,1,0,90.0,Completed
+task_019,chatgpt,54.39,24,23,0,1,0,95.83,Completed
+task_020,chatgpt,28.35,12,10,0,2,0,83.33,Completed
+task_021,chatgpt,13.76,5,5,0,0,0,100.0,Completed
+task_022,chatgpt,2.9,0,0,0,0,0,,No mutants generated
+task_023,chatgpt,2.86,0,0,0,0,0,,No mutants generated
+task_024,chatgpt,9.29,3,3,0,0,0,100.0,Completed
+task_000,claude,15.82,6,6,0,0,0,100.0,Completed
+task_001,claude,39.78,17,17,0,0,0,100.0,Completed
+task_002,claude,7.15,2,2,0,0,0,100.0,Completed
+task_003,claude,20.36,8,8,0,0,0,100.0,Completed
+task_004,claude,12.62,4,4,0,0,0,100.0,Completed
+task_005,claude,16.85,6,6,0,0,0,100.0,Completed
+task_006,claude,33.3,14,14,0,0,0,100.0,Completed
+task_007,claude,5.07,1,1,0,0,0,100.0,Completed
+task_008,claude,19.77,8,8,0,0,0,100.0,Completed
+task_009,claude,13.83,5,5,0,0,0,100.0,Completed
+task_010,claude,43.97,14,14,0,0,0,100.0,Completed
+task_011,claude,11.76,4,4,0,0,0,100.0,Completed
+task_012,claude,9.01,3,3,0,0,0,100.0,Completed
+task_013,claude,7.24,2,2,0,0,0,100.0,Completed
+task_014,claude,9.38,3,3,0,0,0,100.0,Completed
+task_015,claude,9.41,3,3,0,0,0,100.0,Completed
+task_016,claude,2.98,0,0,0,0,0,,No mutants generated
+task_017,claude,20.47,8,8,0,0,0,100.0,Completed
+task_018,claude,25.13,10,9,0,1,0,90.0,Completed
+task_019,claude,55.46,24,23,0,1,0,95.83,Completed
+task_020,claude,28.87,12,11,0,1,0,91.67,Completed
+task_021,claude,13.78,5,5,0,0,0,100.0,Completed
+task_022,claude,3.15,0,0,0,0,0,,No mutants generated
+task_023,claude,2.9,0,0,0,0,0,,No mutants generated
+task_024,claude,9.78,3,3,0,0,0,100.0,Completed
+task_000,gemini,15.69,6,6,0,0,0,100.0,Completed
+task_001,gemini,39.01,17,17,0,0,0,100.0,Completed
+task_002,gemini,7.08,2,2,0,0,0,100.0,Completed
+task_003,gemini,19.62,8,8,0,0,0,100.0,Completed
+task_004,gemini,11.19,4,4,0,0,0,100.0,Completed
+task_005,gemini,15.54,6,6,0,0,0,100.0,Completed
+task_006,gemini,33.15,14,11,0,3,0,78.57,Completed
+task_007,gemini,4.91,1,1,0,0,0,100.0,Completed
+task_008,gemini,19.99,8,8,0,0,0,100.0,Completed
+task_009,gemini,13.43,5,5,0,0,0,100.0,Completed
+task_010,gemini,63.06,14,14,0,0,0,100.0,Completed
+task_011,gemini,11.34,4,4,0,0,0,100.0,Completed
+task_012,gemini,9.09,3,3,0,0,0,100.0,Completed
+task_013,gemini,6.5,2,2,0,0,0,100.0,Completed
+task_014,gemini,8.5,3,3,0,0,0,100.0,Completed
+task_015,gemini,9.0,3,3,0,0,0,100.0,Completed
+task_016,gemini,2.8,0,0,0,0,0,,No mutants generated
+task_017,gemini,19.6,8,8,0,0,0,100.0,Completed
+task_018,gemini,23.45,10,9,0,1,0,90.0,Completed
+task_019,gemini,52.26,24,19,0,5,0,79.17,Completed
+task_020,gemini,27.46,12,9,0,3,0,75.0,Completed
+task_021,gemini,13.2,5,5,0,0,0,100.0,Completed
+task_022,gemini,2.74,0,0,0,0,0,,No mutants generated
+task_023,gemini,2.76,0,0,0,0,0,,No mutants generated
+task_024,gemini,6.14,3,3,0,0,0,100.0,Completed

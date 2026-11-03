@@ -1,0 +1,24 @@
+Generate Python unit tests for the following function.
+
+Task ID: task_002
+Function name: truncate_number
+
+Function code:
+def truncate_number(number: float) -> float:
+    """ Given a positive floating point number, it can be decomposed into
+    and integer part (largest integer smaller than given number) and decimals
+    (leftover part always smaller than 1).
+
+    Return the decimal part of the number.
+    >>> truncate_number(3.5)
+    0.5
+    """
+    return number % 1.0
+
+Requirements:
+- Use pytest.
+- Import the function from solutions.task_002.
+- Write independent test functions whose names start with test_.
+- Cover normal cases, edge cases, and boundary cases.
+- Do not modify the original function.
+- Return ONLY executable Python test code.

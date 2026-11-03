@@ -1,0 +1,25 @@
+Generate Python unit tests for the following function.
+
+Task ID: task_022
+Function name: filter_integers
+
+Function code:
+from typing import List, Any
+
+
+def filter_integers(values: List[Any]) -> List[int]:
+    """ Filter given list of any python values only for integers
+    >>> filter_integers(['a', 3.14, 5])
+    [5]
+    >>> filter_integers([1, 2, 3, 'abc', {}, []])
+    [1, 2, 3]
+    """
+    return [x for x in values if isinstance(x, int)]
+
+Requirements:
+- Use pytest.
+- Import the function from solutions.task_022.
+- Write independent test functions whose names start with test_.
+- Cover normal cases, edge cases, and boundary cases.
+- Do not modify the original function.
+- Return ONLY executable Python test code.

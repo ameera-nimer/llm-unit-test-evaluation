@@ -1,0 +1,21 @@
+.....F                                                                   [100%]
+=================================== FAILURES ===================================
+__________________ test_filter_by_substring_case_sensitivity ___________________
+
+    def test_filter_by_substring_case_sensitivity():
+>       assert filter_by_substring(['Apple', 'banana', 'APRICOT'], 'a') == ['Apple', 'banana']
+E       AssertionError: assert ['banana'] == ['Apple', 'banana']
+E         
+E         At index 0 diff: 'banana' != 'Apple'
+E         Right contains one more item: 'banana'
+E         Use -v to get more diff
+
+tests/test_task_007.py:25: AssertionError
+- generated xml file: /content/ase_workspace/execution/gemini/task_007/junit.xml -
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.16-final-0 _______________
+
+Coverage JSON written to file /content/ase_workspace/execution/gemini/task_007/coverage.json
+=========================== short test summary info ============================
+FAILED tests/test_task_007.py::test_filter_by_substring_case_sensitivity - As...
+1 failed, 5 passed in 0.11s

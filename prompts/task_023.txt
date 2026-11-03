@@ -1,0 +1,22 @@
+Generate Python unit tests for the following function.
+
+Task ID: task_023
+Function name: strlen
+
+Function code:
+def strlen(string: str) -> int:
+    """ Return length of given string
+    >>> strlen('')
+    0
+    >>> strlen('abc')
+    3
+    """
+    return len(string)
+
+Requirements:
+- Use pytest.
+- Import the function from solutions.task_023.
+- Write independent test functions whose names start with test_.
+- Cover normal cases, edge cases, and boundary cases.
+- Do not modify the original function.
+- Return ONLY executable Python test code.

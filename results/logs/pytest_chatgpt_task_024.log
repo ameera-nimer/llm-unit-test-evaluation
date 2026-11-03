@@ -1,0 +1,18 @@
+.................F.                                                      [100%]
+=================================== FAILURES ===================================
+_____________________ test_zero_raises_zero_division_error _____________________
+
+    def test_zero_raises_zero_division_error():
+>       with pytest.raises(ZeroDivisionError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ZeroDivisionError'>
+
+tests/test_task_024.py:74: Failed
+- generated xml file: /content/ase_workspace/execution/chatgpt/task_024/junit.xml -
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.16-final-0 _______________
+
+Coverage JSON written to file /content/ase_workspace/execution/chatgpt/task_024/coverage.json
+=========================== short test summary info ============================
+FAILED tests/test_task_024.py::test_zero_raises_zero_division_error - Failed:...
+1 failed, 18 passed in 0.17s

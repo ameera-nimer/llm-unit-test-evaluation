@@ -1,0 +1,44 @@
+............F..F.F...........                                            [100%]
+=================================== FAILURES ===================================
+___________________ test_palindromic_suffix_of_length_three ____________________
+
+    def test_palindromic_suffix_of_length_three():
+>       assert make_palindrome("ababc") == "abab c".replace(" ", "") + "aba"
+E       AssertionError: assert 'ababcbaba' == 'ababcaba'
+E         
+E         - ababcaba
+E         + ababcbaba
+E         ?      +
+
+tests/test_task_010.py:54: AssertionError
+_______________________ test_string_with_repeated_prefix _______________________
+
+    def test_string_with_repeated_prefix():
+>       assert make_palindrome("aacecaaa") == "aacecaaa"
+E       AssertionError: assert 'aacecaaacecaa' == 'aacecaaa'
+E         
+E         - aacecaaa
+E         + aacecaaacecaa
+E         ?         +++++
+
+tests/test_task_010.py:66: AssertionError
+_______________________ test_string_with_leading_spaces ________________________
+
+    def test_string_with_leading_spaces():
+>       assert make_palindrome(" ab") == " ab "
+E       AssertionError: assert ' aba ' == ' ab '
+E         
+E         -  ab 
+E         +  aba
+
+tests/test_task_010.py:74: AssertionError
+- generated xml file: /content/ase_workspace/execution/chatgpt/task_010/junit.xml -
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.16-final-0 _______________
+
+Coverage JSON written to file /content/ase_workspace/execution/chatgpt/task_010/coverage.json
+=========================== short test summary info ============================
+FAILED tests/test_task_010.py::test_palindromic_suffix_of_length_three - Asse...
+FAILED tests/test_task_010.py::test_string_with_repeated_prefix - AssertionEr...
+FAILED tests/test_task_010.py::test_string_with_leading_spaces - AssertionErr...
+3 failed, 26 passed in 0.25s

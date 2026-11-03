@@ -1,0 +1,4 @@
+Model,Suites_Expected,Suites_Collected,Executability_%,Fully_Passing_Suites,Total_Tests,Total_Passed,Pass_Rate_Micro_%,Pass_Rate_Mean_%,Line_Coverage_Mean_%,Branch_Coverage_Mean_%,Mutation_Score_Mean_%,Total_Mutants,Total_Killed,Avg_Test_Functions,Avg_Assertions
+chatgpt,25,25,100.0,19,690,676,97.97,98.18,100.0,59.33,97.95,162,156,25.76,26.56
+gemini,25,25,100.0,23,146,144,98.63,98.67,100.0,58.33,96.49,162,150,5.84,6.36
+claude,25,25,100.0,23,1229,1227,99.84,99.82,100.0,59.33,98.98,162,159,37.92,41.08

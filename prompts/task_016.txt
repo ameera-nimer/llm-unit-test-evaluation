@@ -1,0 +1,22 @@
+Generate Python unit tests for the following function.
+
+Task ID: task_016
+Function name: count_distinct_characters
+
+Function code:
+def count_distinct_characters(string: str) -> int:
+    """ Given a string, find out how many distinct characters (regardless of case) does it consist of
+    >>> count_distinct_characters('xyzXYZ')
+    3
+    >>> count_distinct_characters('Jerry')
+    4
+    """
+    return len(set(string.lower()))
+
+Requirements:
+- Use pytest.
+- Import the function from solutions.task_016.
+- Write independent test functions whose names start with test_.
+- Cover normal cases, edge cases, and boundary cases.
+- Do not modify the original function.
+- Return ONLY executable Python test code.

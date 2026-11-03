@@ -1,0 +1,24 @@
+Generate Python unit tests for the following function.
+
+Task ID: task_013
+Function name: greatest_common_divisor
+
+Function code:
+def greatest_common_divisor(a: int, b: int) -> int:
+    """ Return a greatest common divisor of two integers a and b
+    >>> greatest_common_divisor(3, 5)
+    1
+    >>> greatest_common_divisor(25, 15)
+    5
+    """
+    while b:
+        a, b = b, a % b
+    return a
+
+Requirements:
+- Use pytest.
+- Import the function from solutions.task_013.
+- Write independent test functions whose names start with test_.
+- Cover normal cases, edge cases, and boundary cases.
+- Do not modify the original function.
+- Return ONLY executable Python test code.

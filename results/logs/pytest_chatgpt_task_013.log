@@ -1,0 +1,45 @@
+.........FFF.................F                                           [100%]
+=================================== FAILURES ===================================
+________________________ test_second_number_is_negative ________________________
+
+    def test_second_number_is_negative():
+>       assert greatest_common_divisor(12, -8) == 4
+E       assert -4 == 4
+E        +  where -4 = greatest_common_divisor(12, -8)
+
+tests/test_task_013.py:42: AssertionError
+________________________ test_both_numbers_are_negative ________________________
+
+    def test_both_numbers_are_negative():
+>       assert greatest_common_divisor(-12, -8) == 4
+E       assert -4 == 4
+E        +  where -4 = greatest_common_divisor(-12, -8)
+
+tests/test_task_013.py:46: AssertionError
+________________________ test_negative_coprime_numbers _________________________
+
+    def test_negative_coprime_numbers():
+>       assert greatest_common_divisor(-7, -11) == 1
+E       assert -1 == 1
+E        +  where -1 = greatest_common_divisor(-7, -11)
+
+tests/test_task_013.py:50: AssertionError
+_____________________ test_gcd_with_large_negative_numbers _____________________
+
+    def test_gcd_with_large_negative_numbers():
+>       assert greatest_common_divisor(-1000000, -250000) == 250000
+E       assert -250000 == 250000
+E        +  where -250000 = greatest_common_divisor(-1000000, -250000)
+
+tests/test_task_013.py:125: AssertionError
+- generated xml file: /content/ase_workspace/execution/chatgpt/task_013/junit.xml -
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.16-final-0 _______________
+
+Coverage JSON written to file /content/ase_workspace/execution/chatgpt/task_013/coverage.json
+=========================== short test summary info ============================
+FAILED tests/test_task_013.py::test_second_number_is_negative - assert -4 == 4
+FAILED tests/test_task_013.py::test_both_numbers_are_negative - assert -4 == 4
+FAILED tests/test_task_013.py::test_negative_coprime_numbers - assert -1 == 1
+FAILED tests/test_task_013.py::test_gcd_with_large_negative_numbers - assert ...
+4 failed, 26 passed in 0.27s

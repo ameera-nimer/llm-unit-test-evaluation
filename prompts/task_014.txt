@@ -1,0 +1,27 @@
+Generate Python unit tests for the following function.
+
+Task ID: task_014
+Function name: all_prefixes
+
+Function code:
+from typing import List
+
+
+def all_prefixes(string: str) -> List[str]:
+    """ Return list of all prefixes from shortest to longest of the input string
+    >>> all_prefixes('abc')
+    ['a', 'ab', 'abc']
+    """
+    result = []
+
+    for i in range(len(string)):
+        result.append(string[:i+1])
+    return result
+
+Requirements:
+- Use pytest.
+- Import the function from solutions.task_014.
+- Write independent test functions whose names start with test_.
+- Cover normal cases, edge cases, and boundary cases.
+- Do not modify the original function.
+- Return ONLY executable Python test code.
